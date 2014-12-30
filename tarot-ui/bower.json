@@ -1,0 +1,8 @@
+{
+  "name": "tarot",
+  "version": "0.0.0",
+  "description": "Organizing your life with cards.",
+  "license": "Apache",
+  "devDependencies": {
+  }
+}

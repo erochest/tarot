@@ -1,0 +1,10 @@
+{
+  "name": "tarot",
+  "version": "0.0.0",
+  "description": "Organizing your life with cards.",
+  "license": "Apache",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-purescript": "^0.1.1"
+  }
+}
