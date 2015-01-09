@@ -1,5 +1,6 @@
 
-SRC=$(shell find src -name '*.hs')
+SRC=$(shell find Handler Import Settings app -name '*.hs')
+CABAL=cabal
 
 PORT=9090
 
@@ -35,7 +36,7 @@ run:
 # prep and push
 
 tags: ${SRC}
-	hasktags --ctags *.hs src
+	hasktags --ctags *.hs Handler Import Settings app
 
 hlint:
 	hlint *.hs src specs
