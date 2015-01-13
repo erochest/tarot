@@ -13,7 +13,7 @@ Node
     nodeType NodeType
     title Text
     content Text Maybe
-    created UTCTime default=CURRENT_TIME
+    created UTCTime default=CURRENT_TIMESTAMP
     completed UTCTime Maybe
     archived UTCTime Maybe
     deriving Show
